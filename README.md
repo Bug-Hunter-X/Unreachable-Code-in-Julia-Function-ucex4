@@ -1,0 +1,3 @@
+# Unreachable Code in Julia
+
+This repository demonstrates a common error in Julia: unreachable code within a function.  The `bug.jl` file contains a function with a `return` statement that will never be reached due to the preceding `if-else` block.  The `bugSolution.jl` file shows how to fix this issue by removing the unreachable code.  This example is useful for illustrating the importance of clean and efficient code.
